@@ -13,8 +13,78 @@
 
 /**
  * Approach 1:
+ * Time: O(n^2)
+ * Space: O(n)
+ */
+
+// const countAndSay = function (n) {
+// 	let str = '1';
+
+// 	for (let i = 1; i < n; i++) {
+// 		let strArr = str.split('');
+// 		console.log({ strArr });
+// 		str = '';
+
+// 		let count = 1;
+
+// 		for (let j = 0; j < strArr.length; j++) {
+// 			if (strArr[j] !== strArr[j + 1]) {
+// 				str += count + strArr[j];
+// 				count = 1;
+// 				console.log({ str });
+// 			} else {
+// 				count++;
+// 			}
+// 		}
+// 	}
+
+// 	return str;
+// };
+
+/**
+ * Approach 2:
+ * Time: O(log n)
+ * Space: O(n)
+ */
+
+// const countAndSay = function (n) {
+// 	if (n === 1) return '1';
+
+// 	return countAndSay(n - 1)
+// 		.match(/1+|2+|3+/g)
+// 		.reduce((acc, nums) => (acc += `${nums.length}${nums[0]}`), '');
+// };
+
+/**
+ * Approach 3:
  * Time: O()
  * Space: O()
  */
 
-const countAndSay = function (n) {};
+const countAndSay = (n, str = '1') => {
+	if (n === 1) return str;
+
+	let newStr = '';
+	let count = 0;
+	let say = str[0];
+
+	for (let i = 0; i < str.length; i++) {
+		if (str[i] === say) {
+			count++;
+		} else {
+			newStr += count + say;
+			count = 1;
+			say = str[i];
+		}
+	}
+
+	return countAndSay(n - 1, newStr + count + say);
+};
+
+// let input = 1;
+// output = "1"
+
+let input = 4;
+// output = '1211'
+
+console.log(countAndSay(input));
