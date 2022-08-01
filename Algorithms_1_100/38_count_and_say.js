@@ -57,8 +57,8 @@
 
 /**
  * Approach 3:
- * Time: O()
- * Space: O()
+ * Time: O(log n)
+ * Space: O(n)
  */
 
 const countAndSay = (n, str = '1') => {
