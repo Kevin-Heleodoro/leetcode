@@ -8,6 +8,8 @@
 
 [20. Valid Parentheses](Algorithms_1_100/20_valid_parentheses.js) -- <https://leetcode.com/problems/valid-parentheses/>
 
+[21. Merge Two Sorted Lists](Algorithms_1_100/21_merge_two_sorted_lists.js) -- <https://leetcode.com/problems/merge-two-sorted-lists/>
+
 [38. Count and Say](Algorithms_1_100/38_count_and_say.js) -- <https://leetcode.com/problems/count-and-say/>
 
 [121. Best Time to Buy and Sell Stock](Algorithms_101_200/121_best_time_to_buy_and_sell_stock.js) -- <https://leetcode.com/problems/best-time-to-buy-and-sell-stock/>
