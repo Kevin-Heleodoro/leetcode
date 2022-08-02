@@ -10,15 +10,36 @@
  * Space: O(n)
  */
 
-const hasCycle = function (head) {
-	let set = new Set();
+// const hasCycle = function (head) {
+// 	let set = new Set();
 
-	while (head) {
-		if (set.has(head)) {
+// 	while (head) {
+// 		if (set.has(head)) {
+// 			return true;
+// 		} else {
+// 			set.add(head);
+// 			head = head.next;
+// 		}
+// 	}
+// 	return false;
+// };
+
+/**
+ * Approach 2:
+ * Time: O(n)
+ * Space: O(1)
+ */
+
+const hasCycle = function (head) {
+	let slow = head,
+		fast = head;
+
+	while (fast && fast.next) {
+		slow = slow.next;
+		fast = fast.next.next;
+
+		if (slow === fast) {
 			return true;
-		} else {
-			set.add(head);
-			head = head.next;
 		}
 	}
 	return false;
