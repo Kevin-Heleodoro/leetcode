@@ -13,3 +13,5 @@
 [121. Best Time to Buy and Sell Stock](Algorithms_101_200/121_best_time_to_buy_and_sell_stock.js) -- <https://leetcode.com/problems/best-time-to-buy-and-sell-stock/>
 
 [289. Game of Life](Algorithms_201_300/289_game_of_life.js) -- <https://leetcode.com/problems/game-of-life/>
+
+[704. Binary Search](Algorithms_701_800/704_binary_search.js) --<https://leetcode.com/problems/binary-search/>
