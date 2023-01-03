@@ -14,6 +14,8 @@
 
 [104. Maximum Depth of Binary Tree](0101_0200/104_maximum_depth_of_binary_tree.js) -- <https://leetcode.com/problems/maximum-depth-of-binary-tree/>
 
+[110. Balanced Binary Tree](0101_0200/110_balanced_binary_tree.js) --<https://leetcode.com/problems/balanced-binary-tree/>
+
 [121. Best Time to Buy and Sell Stock](0101_0200/121_best_time_to_buy_and_sell_stock.js) -- <https://leetcode.com/problems/best-time-to-buy-and-sell-stock/>
 
 [141. Linked List Cycle](0101_0200/141_linked_list_cycle.js) -- <https://leetcode.com/problems/linked-list-cycle/>
@@ -27,3 +29,5 @@
 [543. Diameter of Binary Tree](0501_0600/543_diameter_of_binary_tree.js) -- <https://leetcode.com/problems/diameter-of-binary-tree/>
 
 [704. Binary Search](0701_0800/704_binary_search.js) -- <https://leetcode.com/problems/binary-search/>
+
+[1480. Running Sum of 1d Array](1401-1500/1480_running_sum_of_1d_array.js) -- <https://leetcode.com/problems/running-sum-of-1d-array/>
