@@ -26,8 +26,12 @@
 
 [289. Game of Life](0201_0300/289_game_of_life.js) -- <https://leetcode.com/problems/game-of-life/>
 
+[412. Fizz Buzz](0401_0500/412_fizz_buzz.js) -- <https://leetcode.com/problems/fizz-buzz/>
+
 [543. Diameter of Binary Tree](0501_0600/543_diameter_of_binary_tree.js) -- <https://leetcode.com/problems/diameter-of-binary-tree/>
 
 [704. Binary Search](0701_0800/704_binary_search.js) -- <https://leetcode.com/problems/binary-search/>
 
 [1480. Running Sum of 1d Array](1401-1500/1480_running_sum_of_1d_array.js) -- <https://leetcode.com/problems/running-sum-of-1d-array/>
+
+[1672. Richest Customer Wealth](1601-1700/1672_richest_customer_wealth.js) -- <https://leetcode.com/problems/richest-customer-wealth/>
