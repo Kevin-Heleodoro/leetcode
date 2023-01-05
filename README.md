@@ -32,6 +32,8 @@
 
 [704. Binary Search](0701_0800/704_binary_search.js) -- <https://leetcode.com/problems/binary-search/>
 
+[1342. Number of Steps to Reduce a Number to Zero](1301-1400/1342_number_of_steps_to_zero.js) -- <https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/>
+
 [1480. Running Sum of 1d Array](1401-1500/1480_running_sum_of_1d_array.js) -- <https://leetcode.com/problems/running-sum-of-1d-array/>
 
 [1672. Richest Customer Wealth](1601-1700/1672_richest_customer_wealth.js) -- <https://leetcode.com/problems/richest-customer-wealth/>
