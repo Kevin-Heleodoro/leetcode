@@ -32,6 +32,8 @@
 
 [704. Binary Search](0701_0800/704_binary_search.js) -- <https://leetcode.com/problems/binary-search/>
 
+[876. Middle of the Linked List](0801-0900/876_middle_of_linked_list.js) -- <https://leetcode.com/problems/middle-of-the-linked-list/>
+
 [1342. Number of Steps to Reduce a Number to Zero](1301-1400/1342_number_of_steps_to_zero.js) -- <https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/>
 
 [1480. Running Sum of 1d Array](1401-1500/1480_running_sum_of_1d_array.js) -- <https://leetcode.com/problems/running-sum-of-1d-array/>
