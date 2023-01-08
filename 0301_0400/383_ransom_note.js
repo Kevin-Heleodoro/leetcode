@@ -25,23 +25,23 @@ ransomNote and magazine consist of lowercase English letters.
  * @param {string} ransomNote
  * @param {string} magazine
  * @return {boolean}
+ * Time: O(n * m)
+ * Space: O(m)
  */
 var canConstruct = function (ransomNote, magazine) {
 	const magazineLetters = {};
 
-	for (let i = 0; i < magazine.length; i++) {
-		let current = magazine[i];
-		if (magazineLetters[current]) {
-			magazineLetters[current]++;
+	for (let letter of magazine) {
+		if (magazineLetters[letter]) {
+			magazineLetters[letter]++;
 		} else {
-			magazineLetters[current] = 1;
+			magazineLetters[letter] = 1;
 		}
 	}
 
-	for (let i = 0; i < ransomNote.length; i++) {
-		let current = ransomNote[i];
-		if (magazineLetters[current] >= 1) {
-			magazineLetters[current]--;
+	for (let letter of ransomNote) {
+		if (magazineLetters[letter] >= 1) {
+			magazineLetters[letter]--;
 		} else {
 			return false;
 		}
@@ -49,3 +49,8 @@ var canConstruct = function (ransomNote, magazine) {
 
 	return true;
 };
+
+let ransomNote = 'aa',
+	magazine = 'aab';
+// Output: true
+console.log(canConstruct(ransomNote, magazine));

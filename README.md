@@ -30,6 +30,8 @@
 
 [412. Fizz Buzz](0401_0500/412_fizz_buzz.js) -- <https://leetcode.com/problems/fizz-buzz/>
 
+[485. Max Consecutive Ones](0401_0500/485_max_consecutive_ones.js) -- <https://leetcode.com/problems/max-consecutive-ones/description/>
+
 [543. Diameter of Binary Tree](0501_0600/543_diameter_of_binary_tree.js) -- <https://leetcode.com/problems/diameter-of-binary-tree/>
 
 [704. Binary Search](0701_0800/704_binary_search.js) -- <https://leetcode.com/problems/binary-search/>
