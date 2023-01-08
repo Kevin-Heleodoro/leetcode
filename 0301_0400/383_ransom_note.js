@@ -2,7 +2,6 @@
 
 Each letter in magazine can only be used once in ransomNote.
 
-
 Example 1:
 
 Input: ransomNote = "a", magazine = "b"
@@ -15,7 +14,6 @@ Example 3:
 
 Input: ransomNote = "aa", magazine = "aab"
 Output: true
- 
 
 Constraints:
 

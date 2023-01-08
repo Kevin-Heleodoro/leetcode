@@ -26,6 +26,8 @@
 
 [289. Game of Life](0201_0300/289_game_of_life.js) -- <https://leetcode.com/problems/game-of-life/>
 
+[383. Ransom Note](0301_0400/383_ransom_note.js) -- <https://leetcode.com/problems/ransom-note/description/>
+
 [412. Fizz Buzz](0401_0500/412_fizz_buzz.js) -- <https://leetcode.com/problems/fizz-buzz/>
 
 [543. Diameter of Binary Tree](0501_0600/543_diameter_of_binary_tree.js) -- <https://leetcode.com/problems/diameter-of-binary-tree/>
