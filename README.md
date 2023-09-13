@@ -12,6 +12,10 @@
 
 [38. Count and Say](0001_0100/38_count_and_say.js) -- <https://leetcode.com/problems/count-and-say/>
 
+[27. Remove Element](0001_0100/15_3Sum.js) -- <https://leetcode.com/problems/remove-element/>
+
+[88 Merge Two Sorted Arrays](0001_0100/88_merge_sorted_array.js) -- <https://leetcode.com/problems/merge-sorted-array/>
+
 [104. Maximum Depth of Binary Tree](0101_0200/104_maximum_depth_of_binary_tree.js) -- <https://leetcode.com/problems/maximum-depth-of-binary-tree/>
 
 [110. Balanced Binary Tree](0101_0200/110_balanced_binary_tree.js) --<https://leetcode.com/problems/balanced-binary-tree/>
